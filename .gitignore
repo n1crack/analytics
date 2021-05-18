@@ -1,0 +1,14 @@
+/node_modules
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+npm-debug.log
+yarn-error.log
+/.idea
+.idea/analytics.iml
+.idea/php.xml
+.DS_Store
+composer.lock
+credentials.json

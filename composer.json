@@ -1,0 +1,32 @@
+{
+    "name": "ozdemir/analytics",
+    "description": "Analytics Package for Google Analytics Data API V4",
+    "keywords": [
+        "analytics",
+        "google",
+        "data api"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yusuf Özdemir",
+            "email": "yusuf@ozdemir.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ozdemir\\Analytics\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^8.0",
+        "google/analytics-data": "^0.4.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ozdemir\\Analytics\\Tests\\": "tests"
+        }
+    }
+}
