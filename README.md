@@ -38,7 +38,7 @@ $analytics = new Analytics($config);
 # Requests are defined in an array
 # Up to 5 requests can be executed in one batch request.
 # It is set by Google, so we can't increase this at the moment.
-$request = $analytics->fetch([
+$response = $analytics->fetch([
     new PageViewsAndUsers(
         Period::days(7)
     ),
