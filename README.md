@@ -39,11 +39,11 @@ $analytics = new Analytics($config);
 # Up to 5 requests can be executed in one batch request.
 # It is set by Google, so we can't increase this at the moment.
 $response = $analytics->fetch([
-    new PageViewsAndUsers(
+    new PageViewsByReferer(
         Period::days(7)
     ),
 
-    new PageViewsByReferer(
+    new PageViewsByCountry(
         Period::days(7),
         5   # row limit, only returns 5 rows
     ),
