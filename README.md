@@ -15,11 +15,10 @@ $ composer require ozdemir/analytics
 use Ozdemir\Analytics\Analytics;
 use Ozdemir\Analytics\Period;
 
-# Reports  
+# Optional reports, you can use these or create your own custom requests.
 use Ozdemir\Analytics\Requests\PageViewsByCountry;
 use Ozdemir\Analytics\Requests\PageViewsByReferer;
 
-# Optional, if you need more reports, you can use these or create your own custom.
 use Ozdemir\Analytics\Requests\PageViews;
 use Ozdemir\Analytics\Requests\PageViewsAndUsers;
 use Ozdemir\Analytics\Requests\TopBrowsers;
